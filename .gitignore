@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment variables & secrets (CRITICAL: Never commit .env to GitHub)
+.env
+*.env.local
+
+# Databases & local persistent data
+*.db
+*.sqlite3
+data/
+chroma_db/
+
+# IDE / OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
